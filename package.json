@@ -1,0 +1,29 @@
+{
+  "name": "phaser-memory-game",
+  "version": "1.0.0",
+  "description": "Multi-player memory game using qusar",
+  "targets": {
+    "default": {
+      "source": "client/index.html",
+      "publicUrl": "/public"
+    }
+  },
+  "author": "Ravi Ranganathan",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.2",
+    "phaser": "^3.55.2",
+    "socket.io": "^4.4.1",
+    "socket.io-client": "^4.4.1"
+  },
+  "scripts": {
+    "start": "parcel watch",
+    "build": "rimraf dist && parcel build",
+    "server": "node app"
+  },
+  "devDependencies": {
+    "@parcel/resolver-glob": "^2.1.1",
+    "eslint": "^8.6.0",
+    "parcel": "^2.1.1"
+  }
+}
