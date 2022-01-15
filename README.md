@@ -10,4 +10,6 @@ The standard `yarn install` for nodejs
 
 Then each player launches http://localhost:4000/public, chooses a player name and starts playing. Note: you need two players to start the game (or open the game in  two tabs)
 
+There is a `src/userlist.json` file which contains the name of two players. Change it to match your names.
+
 Uses `parcel` builder
